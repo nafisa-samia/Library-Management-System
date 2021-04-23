@@ -74,7 +74,7 @@ It is cleared from above discussion that main entities of Library are, members (
 In the attached diagram we can see that entity borrow_transaction is dependent on librarian, books and members entities because for every transaction these three requirements are necessary. A librarian can issue books, Librarian provides membership and done transactions on books and can also get fine from members. Because many transactions can be done on many books at same time we associate books with transactions. In this EERD we can see the clear many to many relations of books and author and similarly for books and categories entity. This diagram show dependencies of relation and reduce redundancy problems as well.
 
 
- 
+![plot](https://github.com/nafisa-samia/Library-Management-System/blob/main/Table.PNG)
 
 
 
